@@ -1,7 +1,7 @@
 ## Installation
 '''bash
 uv add langsmith     
-,,,
+'''
 
 
 ## Output
