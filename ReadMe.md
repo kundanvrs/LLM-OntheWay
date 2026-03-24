@@ -1,24 +1,146 @@
-### 1. KBA_Generator : Jira Ticket → Troubleshooting Article Generator (Local GenAI)
-### 2. KBA_Search : Jira Ticket → Search Most probable Article (Local GenAI)
+Here’s a polished **README.md** tailored to your project 👇
 
+---
 
-# ollama-intro
-> pip install ollama 
+# 🤖 KBA Automation with Local GenAI
 
+This project provides two intelligent tools powered by local GenAI models to improve knowledge management and troubleshooting workflows using Jira tickets.
 
+---
 
-# Open WebUI
-## 1.Installation via Python pip 
+## 📌 Features
 
-### Install Open WebUI
-> pip install open-webui
+### 1️⃣ KBA_Generator
 
-### Running Open WebUI
-> open-webui serve 
+**Jira Ticket → Troubleshooting Article Generator**
 
-### Output
-> http://localhost:8080/
+* Converts Jira tickets into structured Knowledge Base Articles (KBAs)
+* Helps teams document solutions automatically
+* Reduces manual effort in writing troubleshooting guides
 
-### 2.Using Docker
-> docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main 
+---
 
+### 2️⃣ KBA_Search
+
+**Jira Ticket → Retrieve Most Relevant Article**
+
+* Finds the most probable existing KBA based on a Jira ticket
+* Speeds up issue resolution
+* Avoids duplication of knowledge
+
+---
+
+## ⚙️ Tech Stack
+
+* Local GenAI (via Ollama)
+* Open WebUI
+* Python
+
+---
+
+## 🚀 Installation
+
+### 🔹 Install Ollama
+
+```bash
+pip install ollama
+```
+
+---
+
+## 🌐 Open WebUI Setup
+
+### Option 1: Using Python (pip)
+
+#### Install Open WebUI
+
+```bash
+pip install open-webui
+```
+
+#### Run Server
+
+```bash
+open-webui serve
+```
+
+#### Access UI
+
+```
+http://localhost:8080/
+```
+
+---
+
+### Option 2: Using Docker
+
+```bash
+docker run -d -p 3000:8080 \
+  --add-host=host.docker.internal:host-gateway \
+  -v open-webui:/app/backend/data \
+  --name open-webui \
+  --restart always \
+  ghcr.io/open-webui/open-webui:main
+```
+
+---
+
+## 🧠 How It Works
+
+1. Input a Jira ticket
+2. Use:
+
+   * **KBA_Generator** → Generates a troubleshooting article
+   * **KBA_Search** → Finds similar existing KBAs
+3. Review and refine output in Open WebUI
+
+---
+
+## 📂 Project Structure (Example)
+
+```
+.
+├── kba_generator/
+├── kba_search/
+├── data/
+├── README.md
+```
+
+---
+
+## 💡 Use Cases
+
+* IT Support Automation
+* DevOps Knowledge Management
+* Incident Resolution Acceleration
+* Internal Documentation Systems
+
+---
+
+## 📸 UI Access
+
+Once running:
+
+* Local UI → [http://localhost:8080/](http://localhost:8080/) (pip)
+* Docker UI → [http://localhost:3000/](http://localhost:3000/)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork and improve the project.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+If you want, I can upgrade this into a **production-level README** with:
+
+* architecture diagram
+* API usage examples
+* sample prompts & outputs
+* resume/portfolio version 🚀
