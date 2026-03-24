@@ -1,6 +1,3 @@
-Here’s a polished **README.md** tailored to your project 👇
-
----
 
 # 🤖 KBA Automation with Local GenAI
 
@@ -94,19 +91,6 @@ docker run -d -p 3000:8080 \
    * **KBA_Search** → Finds similar existing KBAs
 3. Review and refine output in Open WebUI
 
----
-
-## 📂 Project Structure (Example)
-
-```
-.
-├── kba_generator/
-├── kba_search/
-├── data/
-├── README.md
-```
-
----
 
 ## 💡 Use Cases
 
@@ -123,24 +107,6 @@ Once running:
 
 * Local UI → [http://localhost:8080/](http://localhost:8080/) (pip)
 * Docker UI → [http://localhost:3000/](http://localhost:3000/)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork and improve the project.
-
----
-
-## 📄 License
-
-MIT License
-
----
-
-If you want, I can upgrade this into a **production-level README** with:
-
-* architecture diagram
 * API usage examples
 * sample prompts & outputs
 * resume/portfolio version 🚀
