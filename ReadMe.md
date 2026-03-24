@@ -107,6 +107,3 @@ Once running:
 
 * Local UI → [http://localhost:8080/](http://localhost:8080/) (pip)
 * Docker UI → [http://localhost:3000/](http://localhost:3000/)
-* API usage examples
-* sample prompts & outputs
-* resume/portfolio version 🚀
