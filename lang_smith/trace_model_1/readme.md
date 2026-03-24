@@ -57,8 +57,4 @@ Think of it as a "superpower" for teams: it helps build better software faster, 
 
 ## 📸 Screenshot
 
-*Add your screenshot here*
-
-```md
 <img width="1242" height="635" alt="Screenshot 2026-03-24 at 11 59 15 PM" src="https://github.com/user-attachments/assets/c8f2da7c-546e-4bfe-80d8-483501c4b27f" />
-```
