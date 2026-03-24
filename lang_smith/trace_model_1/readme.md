@@ -1,3 +1,9 @@
+## Installation
+'''bash
+uv add langsmith     
+,,,
+
+
 ## Output
 '''
 DevOps is like a teamwork between developers (who build software) and IT operations (who manage and maintain systems). The goal is to make the whole process faster and smoother by using tools and practices that help both teams work together efficiently. 
